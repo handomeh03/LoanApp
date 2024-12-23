@@ -1,0 +1,59 @@
+.main{
+    height: 100vh;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.main .main2{
+    background-color: rgb(203, 51, 51);
+    border-radius: 20px;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.46);
+    
+    
+}
+.main .main2 .box .header h1{
+  color: white;
+  text-transform: capitalize;
+}
+.main .main2 .box .bodys{
+    text-align: center;
+}
+.main .main2 .box .bodys form input{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border: none;
+ 
+    font-size: 20px;
+}
+.main .main2 .box .bodys form label{
+    color: white;
+}
+.main .main2 .box .bodys form select{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.main .main2 .box .bodys form .check{
+    margin: 10px;
+    transform: scale(2);
+    border: none;
+}
+.main .main2 .box .bodys form button{
+    border: none;
+    background-color: rgb(98, 90, 90);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}

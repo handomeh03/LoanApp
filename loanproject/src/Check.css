@@ -1,0 +1,19 @@
+.mains{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+
+   
+}
+.mains .res{
+    width: 50%;
+    background-color: red;
+    color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+}

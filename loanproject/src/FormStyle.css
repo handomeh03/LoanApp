@@ -1,0 +1,52 @@
+#model{
+position: absolute;
+background-color: rgba(0, 0, 0, 0.333);
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0px;
+}
+#modelContent{
+   background-color: white;
+   color: green;
+   width: 80%;
+  
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#loan-form{
+    background-color: rgb(188, 44, 44);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px rgb(0, 0, 0,0.4);
+    width:50%;
+}
+#loan-form label{
+    margin: 10px;
+}
+#loan-form input,select{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+#loan-form #bot{
+  margin: 10px;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: red;
+  cursor: pointer;
+}
+hr{
+   
+    width: 100%;
+}
